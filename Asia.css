@@ -1,0 +1,244 @@
+body {
+    background-color: #f2f5dd;
+    font-family: Georgia;
+}
+
+.container {
+    max-width: 1128px;
+    height:400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #0A1D56;
+    border-radius: 5px;
+    background: linear-gradient(120deg,#fef5dd,#f2f2f2);
+    box-shadow: 5px 8px 100px black;
+    margin-top: 80px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#home {
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    cursor: pointer;
+    width: 60px;
+    height: auto;
+    background-color: #00fdbe;
+    border-radius: 10px;
+}
+
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    cursor: pointer;
+    width: 60px;
+    height: auto;
+    background-color: #00fdbe;
+    border-radius: 10px;
+}
+
+#Nxt {
+    position: fixed;
+    bottom: 19px;
+    right: 90px;
+    cursor: pointer;
+    width: 60px;
+    height: auto;
+    background-color: #00fdbe;
+    border-radius: 10px;
+}
+
+.Nxts {
+    margin: 10px 30px 40px 850px;
+}
+
+
+#NxtPage {
+    background: linear-gradient(120deg,#fef5dd,#000000);
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.center {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    opacity: 0.5;
+}
+
+.center:hover{
+    opacity: 1;
+}
+
+.center figcaption {
+    font-size: 30px;
+}
+
+.center img{
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.Center {
+    width: fit-content;
+    text-align: center;
+    opacity: 0.5;
+    margin: -288px 0px 0px 365px;
+}
+
+.Center:hover{
+    opacity: 1;
+}
+
+.Center figcaption {
+    font-size: 30px;
+}
+
+.Center img{
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.Centers {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    opacity: 0.5;
+    margin: -288px 0px 0px 730px;
+}
+
+.Centers:hover{
+    opacity: 1;
+}
+
+.Centers figcaption {
+    font-size: 30px;
+}
+
+.Centers img{
+    height: 200px;
+    width: 290px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.Japan figure{
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.Japan {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+}
+
+.Japan img {
+    width: 650px;
+    height: 550px;
+    margin-right: 10px;
+    margin-top: -30px;
+    border: 3px solid #0A1D56;
+    border-radius: 20px;
+}
+
+.Japan-Text {
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: justify;
+}
+
+#Japan {
+    text-align: center;
+    font-size: 50px;
+}
+
+.Singapore figure{
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.Singapore {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+}
+
+.Singapore img {
+    width: 650px;
+    height: 550px;
+    margin-right: 20px;
+    margin-top: -30px;
+    border: 3px solid #0A1D56;
+    border-radius: 20px;
+}
+
+.Singapore-Text {
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: justify;
+}
+
+#Singapore {
+    text-align: center;
+    font-size: 50px;
+}
+
+.Thailand figure{
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.Thailand {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+
+}
+
+.Thailand img {
+    width: 650px;
+    height: 550px;
+    margin-right: 20px;
+    margin-top: -30px;
+    border: 3px solid #0A1D56;
+    border-radius: 20px;
+}
+
+.Thailand-Text {
+    font-size: 25px;
+    margin-top: 60px;
+    text-align: justify;
+}
+
+#Thailand {
+    text-align: center;
+    font-size: 50px;
+}
+

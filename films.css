@@ -1,0 +1,405 @@
+body {
+    background-color: #f2f5dd;
+    font-family: Georgia;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.top-nav {
+    height: 85px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 5px #d69b10 solid;
+    box-shadow: 5px 5px 10px black;
+}
+
+.nav-logo{
+    margin-top: 10px;
+    height: auto;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.nav-title {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.top-nav ul{
+    list-style: none;
+    float: right;
+    text-align: right;
+    padding-top: 20px;
+    text-shadow: 5px 8px 30px gray;
+}
+
+.top-nav li{
+    display: inline-block;
+}
+
+.top-nav ul li a{
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 20px;
+    margin-right: 60px;
+    color: white;
+    font-weight: bold;
+}
+
+#home {
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    cursor: pointer;
+    width: 60px;
+    height: auto;
+    background-color: #00fdbe;
+    border-radius: 10px;
+}
+
+#top {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+    cursor: pointer;
+    width: 60px;
+    height: auto;
+    background-color: #00fdbe;
+    border-radius: 10px;
+}
+
+#Nxt {
+    position: fixed;
+    bottom: 19px;
+    right: 90px;
+    cursor: pointer;
+    width: 60px;
+    height: auto;
+    background-color: #00fdbe;
+    border-radius: 10px;
+}
+
+.Nxts {
+    margin: 10px 30px 40px 850px;
+}
+
+
+#NxtPage {
+    background: linear-gradient(120deg,#fef5dd,#000000);
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.container {
+    max-width: 1128px;
+    height:600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #0A1D56;
+    border-radius: 5px;
+    background: linear-gradient(120deg,#fef5dd,#f2f2f2);
+    box-shadow: 5px 8px 100px black;
+    margin-top: 80px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+
+.center {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    opacity: 0.5;
+}
+
+.center:hover{
+    opacity: 1;
+}
+
+.center figcaption {
+    font-size: 30px;
+}
+
+.center img{
+    height: 350px;
+    width: 290px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.Center {
+    width: fit-content;
+    text-align: center;
+    opacity: 0.5;
+    margin: -438px 0px 0px 365px;
+}
+
+.Center:hover{
+    opacity: 1;
+}
+
+.Center figcaption {
+    font-size: 30px;
+}
+
+.Center img{
+    height: 350px;
+    width: 290px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.Centers {
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    opacity: 0.5;
+    margin: -438px 0px 0px 730px;
+}
+
+.Centers:hover{
+    opacity: 1;
+}
+
+.Centers figcaption {
+    font-size: 30px;
+}
+
+.Centers img{
+    height: 350px;
+    width: 290px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-bottom: 10px;
+}
+
+#ben10 .ben10{
+    margin: 30px;
+    width: 1200px;
+    border: 3px solid black;
+    background-color: #f2f5dd;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 100px;
+    padding: 50px;
+}
+
+#ben10 video{
+    width: 1200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+#ben10 h3{
+    font-weight: 1000;
+    padding: 10px;
+    font-family: "Courier Prime", monospace;
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: linear-gradient(120deg,#e6f90c,#007616);
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+#ben10 img{
+    float: left;
+    width: 300px;
+    height: 480px;
+    margin: 20px 20px 20px 0px
+}
+
+#ben10 .ben10-genre h5{
+    float: left;
+    margin-top: -15px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+}
+
+#ben10 .ben10-genre .ben10-right{
+    margin-right: 500px;
+}
+
+#ben10 .ben10-genre p{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Courier Prime", monospace;
+    text-align: justify;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+}
+
+#ben10 .ben10-genre  h5:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#Kdrama .Kdrama{
+    margin: 30px;
+    width: 1200px;
+    border: 3px solid black;
+    background-color: #f2f5dd;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 100px;
+    padding: 50px;
+}
+
+#Kdrama video{
+    width: 1200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+#Kdrama h3{
+    font-weight: 1000;
+    padding: 10px;
+    font-family: "Courier Prime", monospace;
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: rgb(75, 74, 74);
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+#Kdrama img{
+    float: left;
+    width: 300px;
+    height: 480px;
+    margin: 20px 20px 20px 0px
+}
+
+#Kdrama .Kdrama-genre h5{
+    float: left;
+    margin-top: -15px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+}
+
+#Kdrama .Kdrama-genre .Kdrama-right{
+    margin-right: 500px;
+}
+
+#Kdrama .Kdrama-genre p{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Courier Prime", monospace;
+    text-align: justify;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+}
+
+#Kdrama .Kdrama-genre  h5:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#Romance .Romance{
+    margin: 30px;
+    width: 1200px;
+    border: 3px solid black;
+    background-color: #f2f5dd;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 100px;
+    padding: 50px;
+}
+
+#Romance video{
+    width: 1200px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+#Romance h3{
+    font-weight: 1000;
+    padding: 10px;
+    font-family: "Courier Prime", monospace;
+    font-size: 50px;
+    margin-bottom: 5px;
+    color: rgb(228, 180, 8);
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+#Romance img{
+    float: left;
+    width: 300px;
+    height: 480px;
+    margin: 20px 20px 20px 0px
+}
+
+#Romance .Romance-genre h5{
+    float: left;
+    margin-top: -15px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+}
+
+#Romance .Romance-genre .Romance-right{
+    margin-right: 500px;
+}
+
+#Romance .Romance-genre p{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Courier Prime", monospace;
+    text-align: justify;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+}
+
+#Romance .Romance-genre  h5:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
